@@ -1,0 +1,432 @@
+html {
+  --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+  --Grayish-Blue: hsl(201, 11%, 66%);
+  --Strong-Cyan: hsl(171, 66%, 44%);
+  --Light-Blue: hsl(233, 100%, 69%);
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  /* background-color: blue; */
+  background-image: url(images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  width: 1000px;
+  background-color: white;
+  margin: 20px auto;
+}
+
+img {
+  width: 100px;
+  display: flex;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.judul h1 {
+  text-align: center;
+  padding-top: 30px;
+  color: var(--Dark-Grayish-Blue);
+}
+
+.isi {
+  width: 510px;
+  text-align: center;
+  font-size: 15px;
+  margin: -10px auto;
+  color: var(--Grayish-Blue);
+}
+
+.kolom {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.button1 {
+  width: 200px;
+  height: 50px;
+  background-color: var(--Strong-Cyan);
+  border-radius: 40px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  box-shadow: 0px 3px 5px var(--Strong-Cyan);
+  border: none;
+  cursor: pointer;
+}
+
+.button2 {
+  width: 200px;
+  height: 50px;
+  background-color: var(--Light-Blue);
+  border-radius: 40px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  margin-left: 20px;
+  box-shadow: 0px 3px 5px var(--Light-Blue);
+  border: none;
+  cursor: pointer;
+}
+
+.subjudul {
+  text-align: center;
+  margin-top: 150px;
+  color: var(--Dark-Grayish-Blue);
+}
+
+.isi2 p {
+  width: 600px;
+  font-size: 15px;
+  color: var(--Grayish-Blue);
+  margin: auto;
+  text-align: center;
+}
+
+/* buat menggeser 1 main secara bersamaan */
+.colom1 {
+  display: flex;
+  transform: translateX(-200px);
+}
+
+.main img {
+  position: relative;
+  width: 600px;
+  padding-right: 100px;
+}
+
+.section {
+  margin-top: 150px;
+}
+
+/* target tetangga */
+.section-detail + .section-detail {
+  margin-top: 50px;
+}
+
+.section-title {
+  color: var(--Dark-Grayish-Blue);
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.section-paragraph {
+  width: 260px;
+  color: var(--Grayish-Blue);
+  font-size: 12px;
+}
+
+.main2 {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.main2 h2 {
+  color: var(--Dark-Grayish-Blue);
+}
+
+.main2 p {
+  width: 550px;
+  color: var(--Grayish-Blue);
+  margin: auto;
+  font-size: 14px;
+}
+
+.main2 img {
+  width: 800px;
+}
+
+.main3 {
+  display: flex;
+}
+
+.main3 img {
+  width: 35px;
+}
+
+.main3-kolom1 + .main3-kolom1 {
+  margin-left: 130px;
+}
+
+.main3-kolom1 p {
+  width: 250px;
+  font-size: 12px;
+  color: var(--Grayish-Blue);
+}
+
+.main3-subjudul,
+.main3-isi {
+  text-align: center;
+}
+
+.main3-kolom1 .tiga {
+  margin-bottom: 27px;
+}
+
+.main4 {
+  display: flex;
+}
+
+.main4 img {
+  width: 100px;
+}
+
+.main5 {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.main5 p {
+  width: 500px;
+  font-size: 13px;
+  color: var(--Grayish-Blue);
+  margin: auto;
+}
+
+.button3 {
+  width: 200px;
+  height: 50px;
+  background-color: var(--Strong-Cyan);
+  border-radius: 40px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  box-shadow: 0px 3px 5px var(--Strong-Cyan);
+  border: none;
+  cursor: pointer;
+}
+
+.button4 {
+  width: 200px;
+  height: 50px;
+  background-color: var(--Light-Blue);
+  border-radius: 40px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  margin-left: 20px;
+  box-shadow: 0px 3px 5px var(--Light-Blue);
+  border: none;
+  cursor: pointer;
+}
+
+.main5 .button {
+  margin-top: 50px;
+}
+
+.ending {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 200px;
+}
+
+.semua-gambar {
+  display: flex;
+  align-items: center;
+}
+
+.gambar1 + .gambar1 {
+  margin-left: 20px;
+}
+
+.ending .gambar {
+  width: 50px;
+}
+
+.ending .link {
+  width: 550px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.ending .link a {
+  color: var(--Dark-Grayish-BlueGrayish-Blue);
+  text-decoration: none;
+}
+
+.ending .link a:hover {
+  color: var(--Strong-Cyan);
+  text-decoration: none;
+}
+
+.ending .gambar {
+  width: 40px;
+  height: 40px;
+  background-image: url(images/logo.svg);
+  background-size: cover;
+}
+
+.gambar1 .hover {
+  fill: #4c545c;
+  fill-rule: nonzero;
+}
+
+.gambar1 .hover:hover {
+  fill: var(--Strong-Cyan);
+}
+
+.attribution {
+  text-align: center;
+  margin-top: 50px;
+}
+
+@media (max-width: 500px) {
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .container {
+    margin: auto;
+    padding: 0;
+    margin: 0;
+  }
+
+  .judul h1 {
+    text-align: center;
+    width: 330px;
+    margin: auto;
+  }
+
+  .isi {
+    width: 280px;
+    text-align: center;
+    font-size: 15px;
+    margin: -10px auto;
+    color: var(--Grayish-Blue);
+  }
+
+  .kolom {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .kolom button {
+    margin: auto;
+  }
+
+  .kolom .button2 {
+    margin-top: 20px;
+  }
+
+  .subjudul h2 {
+    width: 250px;
+    margin: auto;
+  }
+
+  .isi2 p {
+    width: 280px;
+    margin-top: 15px;
+  }
+
+  .main {
+    width: 100%;
+    margin: auto;
+  }
+
+  .colom1 {
+    display: block;
+    width: 100%;
+    transform: none;
+  }
+
+  .colom1 img {
+    width: 300px;
+    padding: 0;
+    margin-top: 50px;
+  }
+
+  .section {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+
+  .section .section-paragraph {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+
+  .main2 h2 {
+    width: 200px;
+    margin: auto;
+  }
+
+  .main2 p {
+    width: 280px;
+    margin-top: 20px;
+  }
+
+  .main2 img {
+    width: 300px;
+  }
+
+  .main3 {
+    display: block;
+    margin: auto;
+    padding: 0;
+    margin: 0;
+  }
+
+  .main3-kolom1 + .main3-kolom1 {
+    margin-left: 0;
+  }
+
+  .main3-kolom1 .main3-isi {
+    margin: auto;
+  }
+
+  .main4 {
+    display: block;
+  }
+
+  .main5 h3 {
+    width: 200px;
+    margin: auto;
+  }
+
+  .main5 p {
+    width: 230px;
+    margin: auto;
+  }
+
+  .main5 button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: -30px auto;
+  }
+
+  .ending {
+    display: block;
+  }
+
+  .ending .gambar {
+    margin: auto;
+  }
+
+  .ending .link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+  }
+
+  .link a {
+    display: block;
+    margin: auto;
+    max-width: max-content;
+    margin-top: 10px;
+  }
+
+  .semua-gambar {
+    margin: auto;
+    max-width: max-content;
+    margin-top: 30px;
+  }
+}
